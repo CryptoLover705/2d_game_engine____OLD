@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CPP-2D-Engine" />
+		<Option platforms="Windows;Unix;" />
+		<Option makefile="makefile" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CPP-2D-Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src/Engine" />
+					<Add directory="src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CPP-2D-Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src/Engine" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="makefile" />
+		<Unit filename="src/Engine/AnimatedSprite.cpp" />
+		<Unit filename="src/Engine/AnimatedSprite.h" />
+		<Unit filename="src/Engine/Engine.cpp" />
+		<Unit filename="src/Engine/Engine.h" />
+		<Unit filename="src/Engine/Entity.cpp" />
+		<Unit filename="src/Engine/Entity.h" />
+		<Unit filename="src/Engine/Globals.h" />
+		<Unit filename="src/Engine/Input.cpp" />
+		<Unit filename="src/Engine/Input.h" />
+		<Unit filename="src/Engine/Level.cpp" />
+		<Unit filename="src/Engine/Level.h" />
+		<Unit filename="src/Engine/LinkedList.h" />
+		<Unit filename="src/Engine/Math.h" />
+		<Unit filename="src/Engine/RendererBase.cpp" />
+		<Unit filename="src/Engine/RendererBase.h" />
+		<Unit filename="src/Engine/RendererDirect3D.cpp" />
+		<Unit filename="src/Engine/RendererDirect3D.h" />
+		<Unit filename="src/Engine/RendererOpenGL.cpp" />
+		<Unit filename="src/Engine/RendererOpenGL.h" />
+		<Unit filename="src/Engine/RendererSDL.cpp" />
+		<Unit filename="src/Engine/RendererSDL.h" />
+		<Unit filename="src/Engine/ResourceWrapper.h" />
+		<Unit filename="src/Engine/SoundManager.cpp" />
+		<Unit filename="src/Engine/SoundManager.h" />
+		<Unit filename="src/Engine/Sprite.cpp" />
+		<Unit filename="src/Engine/Sprite.h" />
+		<Unit filename="src/Engine/Timer.cpp" />
+		<Unit filename="src/Engine/Timer.h" />
+		<Unit filename="src/Engine/Vector2.cpp" />
+		<Unit filename="src/Engine/Vector2.h" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Player.h" />
+		<Unit filename="src/SpaceGame.cpp" />
+		<Unit filename="src/SpaceGame.h" />
+		<Unit filename="src/SpaceLevel.cpp" />
+		<Unit filename="src/SpaceLevel.h" />
+		<Unit filename="src/TestEntity.cpp" />
+		<Unit filename="src/TestEntity.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="include" />
+			</code_completion>
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
